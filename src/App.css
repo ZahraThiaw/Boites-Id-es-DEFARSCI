@@ -1,0 +1,108 @@
+body {
+  background-image: url(./images/background.jpeg);
+  background-repeat: no-repeat;
+  background-position: absolute;
+  background-size: cover;
+  height: 100vh;
+  /* font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #dfeff8;
+  background: #f0eeee;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 700;
+} 
+.App-logo {
+  height: 15vmin;
+  pointer-events: none;
+  margin: 5px;
+}
+
+.messageaccueil {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 25%;
+  color: rgb(1, 120, 175);
+
+}
+
+.idea-box {
+  width: 60%;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.logo{
+  height: 10vmin;
+  pointer-events: none;
+  margin: 5px;
+}
+h1 {
+  text-align: center;
+  color: #0573f18a;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  color: #666666;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+@media screen and (max-width: 800px){
+  .messageaccueil {
+    font-size: 20px;
+    margin-top: 50%;
+  
+  }
+}
